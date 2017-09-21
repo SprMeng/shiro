@@ -16,5 +16,6 @@ public class InitLog4j extends HttpServlet {
        if (file != null) {
            PropertyConfigurator.configure(prefix + file);
        }
+       System.out.println("test");
     }
 }
